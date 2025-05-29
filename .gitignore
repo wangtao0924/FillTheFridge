@@ -65,12 +65,16 @@ TanChiSheConsole/**/*.vsidx
 /FillTheFridge/[Oo]bj/
 /FillTheFridge/[Ll]ogs/
 
+
+
+
+/FillTheFridge/**/*.csproj
 /FillTheFridge/**/*.unityproj
 /FillTheFridge/**/*.sln
 /FillTheFridge/**/*.suo
 /FillTheFridge/**/*.user
+
 /FillTheFridge/**/*.userprefs
 /FillTheFridge/**/*.pidb
 /FillTheFridge/**/*.idea
 /FillTheFridge/**/*.log
-/FillTheFridge/**/*.dwlt
