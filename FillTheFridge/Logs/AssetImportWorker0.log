@@ -1,0 +1,629 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.1f1c1 (0cb3bd085a01) revision 832445'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 12122 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity 2021.3.1f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/12/Desktop/AppGame4(1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49456
+Successfully changed project path to: C:/Users/12/Desktop/AppGame4(1)
+C:/Users/12/Desktop/AppGame4(1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 1695.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1c1 (0cb3bd085a01)
+[Subsystems] Discovering subsystems at path D:/Unity 2021.3.1f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/12/Desktop/AppGame4(1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   Intel
+    VRAM:     6061 MB
+    Driver:   30.0.100.9864
+Initialize mono
+Mono path[0] = 'D:/Unity 2021.3.1f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity 2021.3.1f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity 2021.3.1f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity 2021.3.1f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019310 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1322.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6822ms)
+		BeginReloadAssembly (834ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (5250ms)
+			LoadAssemblies (826ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1544ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (322ms)
+			SetupLoadedEditorAssemblies (2920ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1323ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (884ms)
+				ProcessInitializeOnLoadMethodAttributes (643ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.319400 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\12\Desktop\AppGame4(1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\12\Desktop\AppGame4(1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1004ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (498ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4013 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 135 unused Assets / (60.3 KB). Loaded Objects now: 4386.
+Memory consumption went from 140.8 MB to 140.8 MB.
+Total: 4.022600 ms (FindLiveObjects: 0.323600 ms CreateObjectMapping: 0.548600 ms MarkObjects: 2.980700 ms  DeleteObjects: 0.168700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3987306.041544 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(87247afc7f44b0144b58177b645cfbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(87247afc7f44b0144b58177b645cfbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78cbc0316c38ffc9aa936df1622d4d0') in 0.032943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.747632 seconds.
+  path: Assets/Resources/BinConfigData
+  artifactKey: Guid(58c1704581c06c7409b0db6fb67af7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/BinConfigData using Guid(58c1704581c06c7409b0db6fb67af7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd37cddd68308fd20aa7df2a6df39eea') in 0.002719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.069119 seconds.
+  path: Assets/Resources/BinConfigData/Goods.bytes
+  artifactKey: Guid(8d2028d8c9b5ff942b941f0f4148e0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/BinConfigData/Goods.bytes using Guid(8d2028d8c9b5ff942b941f0f4148e0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0edd0d66fc3fd8e1dfa5bd32589da8') in 0.006846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.272036 seconds.
+  path: Assets/Res/Art/model/goods/drink.FBX
+  artifactKey: Guid(e39215d4a6d36944391236e5c8a18389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/model/goods/drink.FBX using Guid(e39215d4a6d36944391236e5c8a18389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063c30512fb22ee5c211ca3ff4f76b68') in 8.707425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Res/Art/model/Refrigerator/Refrigerator03.FBX
+  artifactKey: Guid(393615cae0b0e8d43af71a0eefa2ac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/model/Refrigerator/Refrigerator03.FBX using Guid(393615cae0b0e8d43af71a0eefa2ac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381711c5815a58ca88527684a505a8ad') in 0.523909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Res/Art/model/goods/kitchen_01.FBX
+  artifactKey: Guid(539028069403f9e4a8053e73cc23ff30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/model/goods/kitchen_01.FBX using Guid(539028069403f9e4a8053e73cc23ff30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff3c442364a792b8adc0fdbdfdee4b6') in 9.599982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Res/Art/model/Refrigerator/Refrigerator01.FBX
+  artifactKey: Guid(bbd2a82dcc902b54f80048281539e06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/model/Refrigerator/Refrigerator01.FBX using Guid(bbd2a82dcc902b54f80048281539e06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beefcd030455e1d0ac9e3574f7ea907f') in 1.480742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Res/Art/model/Refrigerator/Refrigerator02.FBX
+  artifactKey: Guid(e114015b1c3b23243b7af5911cca2196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/model/Refrigerator/Refrigerator02.FBX using Guid(e114015b1c3b23243b7af5911cca2196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd91721af0af951d8ecb8e88bf77a0c2') in 1.812372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.398872 seconds.
+  path: Assets/Res/Art/prefab/GameLevel.prefab
+  artifactKey: Guid(27cb0412401ed214baa7eb4b151c5349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/GameLevel.prefab using Guid(27cb0412401ed214baa7eb4b151c5349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5843953995f84c4bb5f3b929347baef8') in 0.654343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.832624 seconds.
+  path: Assets/Res/Art/prefab/Basket/Basket_g.prefab
+  artifactKey: Guid(dcc90f0ac5933664b98cd1feaaf60f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/Basket/Basket_g.prefab using Guid(dcc90f0ac5933664b98cd1feaaf60f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e29e2ae4b30ee60ce95e102f1b59126') in 0.123986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Res/Art/prefab/Basket/Basket_y.prefab
+  artifactKey: Guid(9b29599ed9bfa51438f44682c7fa9124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/Basket/Basket_y.prefab using Guid(9b29599ed9bfa51438f44682c7fa9124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547f4b1c1da192f5cd130bce9b6b131a') in 0.082671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Res/Art/prefab/Basket/Basket_r.prefab
+  artifactKey: Guid(77e78810223edc44e8e45b65561451c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/Basket/Basket_r.prefab using Guid(77e78810223edc44e8e45b65561451c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5701c16701050dc7894b6c835c8791') in 0.057639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.632688 seconds.
+  path: Assets/Res/Art/prefab/box/Box_4_8_4.prefab
+  artifactKey: Guid(bf8e12dfa02761f4e80a79ba4aa466c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/box/Box_4_8_4.prefab using Guid(bf8e12dfa02761f4e80a79ba4aa466c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f896e1693a309860e4dede3476e812a7') in 1.687509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Res/Art/prefab/box/UnitBox.prefab
+  artifactKey: Guid(712a5ceeae0197244b7fe6279a535004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/box/UnitBox.prefab using Guid(712a5ceeae0197244b7fe6279a535004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bc4736fbb535260e05ddeb5e84b8cd') in 0.069540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Res/Art/prefab/box/Box_6_8_4.prefab
+  artifactKey: Guid(772e97f9f3cb2074994a62762629656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/box/Box_6_8_4.prefab using Guid(772e97f9f3cb2074994a62762629656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ab43e73121c6034e9cd71777989284') in 0.073374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Res/Art/prefab/box/Box_12_8_4.prefab
+  artifactKey: Guid(52d0c054963895a43858e88c1404aab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/box/Box_12_8_4.prefab using Guid(52d0c054963895a43858e88c1404aab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7840a5cc6135fed6edf9d852c13ba6b0') in 0.142252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.694733 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_2/2_2_2.prefab
+  artifactKey: Guid(cb73813ba558aa84fb4a62fb93f6ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_2/2_2_2.prefab using Guid(cb73813ba558aa84fb4a62fb93f6ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc534dccd027b04ba366acb28ebaf74f') in 0.194013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_2/drink02.prefab
+  artifactKey: Guid(c67b8907bac22564d909e272f3c06a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_2/drink02.prefab using Guid(c67b8907bac22564d909e272f3c06a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d35031d08424b5f30ba4d1bd6b662f') in 0.979350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_2/drink06.prefab
+  artifactKey: Guid(bf84730c7d4f4c847bc220fd44646332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_2/drink06.prefab using Guid(bf84730c7d4f4c847bc220fd44646332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa68a63c7b7ae381cb9cea2d1c364d1') in 0.225089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_2/drink07.prefab
+  artifactKey: Guid(d9505cf16767910429476eed0b987108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_2/drink07.prefab using Guid(d9505cf16767910429476eed0b987108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d8d1995bd9c3802ddb78c6ab361348') in 0.140012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_2/drink04.prefab
+  artifactKey: Guid(170f863dc6d07ec4693b9ef015bd47cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_2/drink04.prefab using Guid(170f863dc6d07ec4693b9ef015bd47cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e547598f364f6474ecf51e270172ed') in 0.232542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_2/drink03.prefab
+  artifactKey: Guid(0cdfc4de043a3aa40ac6e5741072f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_2/drink03.prefab using Guid(0cdfc4de043a3aa40ac6e5741072f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8d5a9a3fb8e45e50ad78c6ec132389') in 0.086884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_2/drink05.prefab
+  artifactKey: Guid(b167916f5f1c27b4397ffaa79954392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_2/drink05.prefab using Guid(b167916f5f1c27b4397ffaa79954392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8698c4fc092f8d9a1ad0c84e211c5b') in 0.158631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_2/drink01.prefab
+  artifactKey: Guid(55e7a7c44d0b762468bc1f0e373237e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_2/drink01.prefab using Guid(55e7a7c44d0b762468bc1f0e373237e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383ef7320f62f3ff0ca0fe63547c62b1') in 0.063709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.344561 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_4/2_2_4.prefab
+  artifactKey: Guid(6c6faf587d782a648949c06341da0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_4/2_2_4.prefab using Guid(6c6faf587d782a648949c06341da0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60902009f422965410bd7ca9bb77747') in 0.025390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_4/drink14.prefab
+  artifactKey: Guid(4da0da29e3737b342966b30244674b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_4/drink14.prefab using Guid(4da0da29e3737b342966b30244674b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a60a117ff2c4b904cd6235b34023e9') in 0.066491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_4/milk01.prefab
+  artifactKey: Guid(9ad83c6aebce0c4419765d7500def515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_4/milk01.prefab using Guid(9ad83c6aebce0c4419765d7500def515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157613ce9a211f0ef62d248fac75b98b') in 0.057127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_4/drink15.prefab
+  artifactKey: Guid(29ef10ac269403b4184a0dd1a36e1b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_4/drink15.prefab using Guid(29ef10ac269403b4184a0dd1a36e1b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5840462ba592816140c912b56d5f2525') in 0.037580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_4/drink16.prefab
+  artifactKey: Guid(79c3e65c4b3ccdd4dbb4f734f8402800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_4/drink16.prefab using Guid(79c3e65c4b3ccdd4dbb4f734f8402800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192f6caa958bbf3411b4b461aacbbca8') in 0.051800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_4/drink13.prefab
+  artifactKey: Guid(785025261e9835f43a8dcdb32cade440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_4/drink13.prefab using Guid(785025261e9835f43a8dcdb32cade440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ac15a97240a00b5577792f8152b6ef') in 0.110311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_4/drink17.prefab
+  artifactKey: Guid(c7aeb2fce6ad9a948b4ffbbcfdc71dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_4/drink17.prefab using Guid(c7aeb2fce6ad9a948b4ffbbcfdc71dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe4e17383d24816ffd4aedf870630d7') in 0.094340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Res/Art/prefab/goods/2_2_4/milk02.prefab
+  artifactKey: Guid(d15165d887683424e9d3994afee1f9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/2_2_4/milk02.prefab using Guid(d15165d887683424e9d3994afee1f9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06fc378f993bd2e224d2c1e75f5979e') in 0.069441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.658311 seconds.
+  path: Assets/Res/Art/prefab/goods/3_1_2/3_1_2.prefab
+  artifactKey: Guid(c1d0b5d06f8bf9b439eeb7655b303591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/3_1_2/3_1_2.prefab using Guid(c1d0b5d06f8bf9b439eeb7655b303591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9af39a58c077bd2cad38defa0c2acf') in 0.015360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Res/Art/prefab/goods/3_1_2/snacks05.prefab
+  artifactKey: Guid(67a2e841976cc204db0bbdc5ffa6c116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/3_1_2/snacks05.prefab using Guid(67a2e841976cc204db0bbdc5ffa6c116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2174a86c71bc8e34624233a11c463e3c') in 0.045445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Res/Art/prefab/goods/3_1_2/snacks04.prefab
+  artifactKey: Guid(428ec23e5677228409408d22cdf0d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/3_1_2/snacks04.prefab using Guid(428ec23e5677228409408d22cdf0d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88078b16a6f1d59cc2315396205bbc3b') in 0.047114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Res/Art/prefab/goods/3_1_2/snacks07.prefab
+  artifactKey: Guid(c6c5bb96f75af964d976f5e9753357b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/3_1_2/snacks07.prefab using Guid(c6c5bb96f75af964d976f5e9753357b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eadee7615c2f99bfd9eaefbb1beee46') in 0.048612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Res/Art/prefab/goods/3_1_2/juice02.prefab
+  artifactKey: Guid(2bdd536262054b94a86e82aef9964d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/3_1_2/juice02.prefab using Guid(2bdd536262054b94a86e82aef9964d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24f3b9288195acefbdddf23239c9162') in 0.058903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Res/Art/prefab/goods/3_1_2/snacks06.prefab
+  artifactKey: Guid(0b4110be3edc4bc498cbef11f64f4fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/3_1_2/snacks06.prefab using Guid(0b4110be3edc4bc498cbef11f64f4fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a697a88b8007c17b00dcca904d4f44') in 0.060705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Res/Art/prefab/goods/3_1_2/juice05.prefab
+  artifactKey: Guid(e77b8a6273b836543b3e78673fe51571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/3_1_2/juice05.prefab using Guid(e77b8a6273b836543b3e78673fe51571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bb2146abd0841546a9a46bd2250bce') in 0.029189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Res/Art/prefab/goods/3_1_2/snacks08.prefab
+  artifactKey: Guid(07d8412fbe4692d4db8c95af4fd8d73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/3_1_2/snacks08.prefab using Guid(07d8412fbe4692d4db8c95af4fd8d73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f68dc1704c08f5c9bebbdc5da4015a') in 0.059776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Res/Art/prefab/goods/3_1_2/juice06.prefab
+  artifactKey: Guid(0b430cf2e6bec7849bd28955a59270e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/3_1_2/juice06.prefab using Guid(0b430cf2e6bec7849bd28955a59270e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf02ffa20540e323397670676cc7737') in 0.069208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.663111 seconds.
+  path: Assets/Res/Art/prefab/goods/4_2_1/4_2_1.prefab
+  artifactKey: Guid(a94bef8c757b5f749a73867ff0a24085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_2_1/4_2_1.prefab using Guid(a94bef8c757b5f749a73867ff0a24085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e44b11a9119d476c8d3229cb69b7231') in 0.040226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Res/Art/prefab/goods/4_2_1/snacks12.prefab
+  artifactKey: Guid(cfc696b6233234e4aad8d46b69cd065b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_2_1/snacks12.prefab using Guid(cfc696b6233234e4aad8d46b69cd065b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc4fd94ecc182dc567a3d4196b4e0a4') in 0.072258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Res/Art/prefab/goods/4_2_1/snacks14.prefab
+  artifactKey: Guid(1524514f9b206144fb6cda6b20b18dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_2_1/snacks14.prefab using Guid(1524514f9b206144fb6cda6b20b18dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1132ce0eba66708763e24e371bb70e15') in 0.051478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.359641 seconds.
+  path: Assets/Res/Art/prefab/goods/4_4_1/4_4_1.prefab
+  artifactKey: Guid(67e4703e38a420e49a0fdc270c182437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_4_1/4_4_1.prefab using Guid(67e4703e38a420e49a0fdc270c182437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39586e9d03e1d644afa955a1fd7796b3') in 0.059076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Res/Art/prefab/goods/4_4_1/Food_06.prefab
+  artifactKey: Guid(560d4abfee394554d9c92cc4b60ab49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_4_1/Food_06.prefab using Guid(560d4abfee394554d9c92cc4b60ab49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24de29f3c1bacd2ef5b86f58105e56ac') in 0.358262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Res/Art/prefab/goods/4_4_1/Food_04.prefab
+  artifactKey: Guid(36eda2cb00b9dc746b4a704c5293d181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_4_1/Food_04.prefab using Guid(36eda2cb00b9dc746b4a704c5293d181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4cb960d9948efd18d6751ff2b2b549') in 0.181150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Res/Art/prefab/goods/4_4_1/Food_02.prefab
+  artifactKey: Guid(376628e54715acb44b1f9e245369f69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_4_1/Food_02.prefab using Guid(376628e54715acb44b1f9e245369f69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dd9357d56927db5eedfaf538f868b3') in 0.053779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Res/Art/prefab/goods/4_5_1/chips04.prefab
+  artifactKey: Guid(b344d81c1e6895945b2dc5045c4d0b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_5_1/chips04.prefab using Guid(b344d81c1e6895945b2dc5045c4d0b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557023b31a34bb36d7eda85e2fcfa347') in 0.106511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Res/Art/prefab/goods/4_5_1/chips05.prefab
+  artifactKey: Guid(2832228c9a24ebe42b9a6a95b16c027c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_5_1/chips05.prefab using Guid(2832228c9a24ebe42b9a6a95b16c027c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a711c86c50b1f4324ce8966e9a72a1a2') in 0.280644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Res/Art/prefab/goods/4_5_1/4_5_1.prefab
+  artifactKey: Guid(8cf9a55df00d4894597fb1ed2363a9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_5_1/4_5_1.prefab using Guid(8cf9a55df00d4894597fb1ed2363a9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855637d77e001b8ab0abdcf0461ab138') in 0.020062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000995 seconds.
+  path: Assets/Res/Art/prefab/goods/4_4_1/Food_03.prefab
+  artifactKey: Guid(b6a356de39dcc194189bfa46a8f8cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_4_1/Food_03.prefab using Guid(b6a356de39dcc194189bfa46a8f8cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f928e54ad2f0a66aec6fb3f39bb2093') in 0.135926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001517 seconds.
+  path: Assets/Res/Art/prefab/goods/4_8_2/tangerine.prefab
+  artifactKey: Guid(60a61d28f70fa7147846d681d4d86789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_8_2/tangerine.prefab using Guid(60a61d28f70fa7147846d681d4d86789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334fab7bafd13776d3130869acaf9d98') in 0.157370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Res/Art/prefab/goods/4_5_1/chips06.prefab
+  artifactKey: Guid(876ef171844d42443817a292f5461196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_5_1/chips06.prefab using Guid(876ef171844d42443817a292f5461196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748374e3eac102fc10b61e6cfb2733e9') in 0.071247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Res/Art/prefab/goods/4_8_2/banana.prefab
+  artifactKey: Guid(a437404d8a8a121459d7c86da20d1bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_8_2/banana.prefab using Guid(a437404d8a8a121459d7c86da20d1bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77d277d920efdcd0f602145ff900419') in 0.067830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Res/Art/prefab/goods/4_8_2/melon.prefab
+  artifactKey: Guid(52435630258496240ac815185dc6b0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_8_2/melon.prefab using Guid(52435630258496240ac815185dc6b0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec472705aa157d4ddee9de9e0561606') in 0.074312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Res/Art/prefab/goods/4_4_1/Food_01.prefab
+  artifactKey: Guid(c59e54ea22f5ad844a6d37537ffbfcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_4_1/Food_01.prefab using Guid(c59e54ea22f5ad844a6d37537ffbfcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7636eb752c7a7ba8221cbe73aa3c5e') in 0.063671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Res/Art/prefab/goods/4_5_1/chips03.prefab
+  artifactKey: Guid(815e6c0951302f04083e49b950713ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_5_1/chips03.prefab using Guid(815e6c0951302f04083e49b950713ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdc7a3611a9b3849ad2d7bb04387b58') in 0.067333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Res/Art/prefab/goods/4_5_1/chips07.prefab
+  artifactKey: Guid(d64b65ae862f67b4384d3140c2ffa95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_5_1/chips07.prefab using Guid(d64b65ae862f67b4384d3140c2ffa95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f130c86fd7abe2a9fda9918f68b007') in 0.056052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Res/Art/prefab/goods/4_8_2/apple.prefab
+  artifactKey: Guid(cc556a864857d5d42ac974a2846fa67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_8_2/apple.prefab using Guid(cc556a864857d5d42ac974a2846fa67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fc75f9253511488ffe799a063d61da') in 0.082650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Res/Art/prefab/goods/4_8_2/watermelons.prefab
+  artifactKey: Guid(8bf095c391dbf674ebef589ecd6f3b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_8_2/watermelons.prefab using Guid(8bf095c391dbf674ebef589ecd6f3b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86208fcae01c8357a6db248ddec5e4de') in 0.050250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Res/Art/prefab/goods/4_5_1/chips01.prefab
+  artifactKey: Guid(e06e8d9a824b3224e9f50a43f88c4704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_5_1/chips01.prefab using Guid(e06e8d9a824b3224e9f50a43f88c4704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ff5a43fdd29e718818f3404071eeb1') in 0.069192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Res/Art/prefab/goods/4_4_1/Food_05.prefab
+  artifactKey: Guid(617d805c07af64549995326d02996362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_4_1/Food_05.prefab using Guid(617d805c07af64549995326d02996362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351361148dbaf5ff8a0dd84b829ffe8d') in 0.060325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Res/Art/prefab/goods/5_2_1/snacks11.prefab
+  artifactKey: Guid(7c4d829f4b5af7044a39f74bdad36c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/5_2_1/snacks11.prefab using Guid(7c4d829f4b5af7044a39f74bdad36c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292586a58f6171ec425f861c4248d704') in 0.067569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Res/Art/prefab/goods/4_4_1/Food_07.prefab
+  artifactKey: Guid(8ee69e3e2096adf47b435230ba990452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_4_1/Food_07.prefab using Guid(8ee69e3e2096adf47b435230ba990452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf1a69ad3aaa0cbf0b3097d90370205') in 0.039319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Res/Art/prefab/goods/4_8_2/carrot.prefab
+  artifactKey: Guid(64ca67dc7af4ecc43b455f247b29114e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_8_2/carrot.prefab using Guid(64ca67dc7af4ecc43b455f247b29114e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d484efa359837cc67dc86d04275485d') in 0.420718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Res/Art/prefab/goods/4_5_1/chips02.prefab
+  artifactKey: Guid(fcf2e8c1dc5fc18488ec3a58f21164ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_5_1/chips02.prefab using Guid(fcf2e8c1dc5fc18488ec3a58f21164ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce8acab15f8281f74513d400fc4d985') in 0.440942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Res/Art/prefab/goods/4_8_2/4_8_2.prefab
+  artifactKey: Guid(08ade6a4d3e705941839e128e309d882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/4_8_2/4_8_2.prefab using Guid(08ade6a4d3e705941839e128e309d882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f566192fb96b7771232a1ba3c76bed2') in 0.034607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Res/Art/prefab/goods/5_2_1/snacks13.prefab
+  artifactKey: Guid(a43d8977c5372304ea071d30676ad6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/5_2_1/snacks13.prefab using Guid(a43d8977c5372304ea071d30676ad6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e9d4c43352daf04a67c792a8d3227d') in 0.212850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Res/Art/prefab/goods/6_6_1/Food_15.prefab
+  artifactKey: Guid(5815e0b6282268a43a3ee5603db570bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/6_6_1/Food_15.prefab using Guid(5815e0b6282268a43a3ee5603db570bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a7418be1dcbb63b0934b76f4e3698a') in 0.127470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Res/Art/prefab/goods/6_6_1/Food_17.prefab
+  artifactKey: Guid(63fbace287e4b454bb2dfedd2e1aaca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/6_6_1/Food_17.prefab using Guid(63fbace287e4b454bb2dfedd2e1aaca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9e266f1f388afabdeb60d07dc8a404') in 0.071358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Res/Art/prefab/goods/6_6_1/Food_16.prefab
+  artifactKey: Guid(b8656de162863024db652f61567369c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/6_6_1/Food_16.prefab using Guid(b8656de162863024db652f61567369c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eafb4d24296c323ed7874bc47947644') in 0.092558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Res/Art/prefab/goods/6_6_1/Food_14.prefab
+  artifactKey: Guid(f72d5a9733d262d498e294327ab8691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/6_6_1/Food_14.prefab using Guid(f72d5a9733d262d498e294327ab8691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44f10dd62d20dd0f36a8fad4f875950') in 0.085001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Res/Art/prefab/goods/6_6_1/Food_11.prefab
+  artifactKey: Guid(a19e888edee93a8479d1073b094f30cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/6_6_1/Food_11.prefab using Guid(a19e888edee93a8479d1073b094f30cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0f9b8fee991420b6958aedaf6273fa') in 0.091227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Res/Art/prefab/goods/6_6_1/Food_13.prefab
+  artifactKey: Guid(37e68a1eae055c54893451e2bbb1c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/6_6_1/Food_13.prefab using Guid(37e68a1eae055c54893451e2bbb1c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88a03a59d5ae9e5431566a9b46bc580') in 0.043169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Res/Art/prefab/goods/6_6_1/6_6_1.prefab
+  artifactKey: Guid(176cd6f939f18b743bb66619d42475a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/6_6_1/6_6_1.prefab using Guid(176cd6f939f18b743bb66619d42475a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b9de96b3d5b3e5de58b9a274e1831e') in 0.019432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Res/Art/prefab/goods/6_6_1/Food_12.prefab
+  artifactKey: Guid(68a808b3a3b1c664f9a1ace973b023a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/6_6_1/Food_12.prefab using Guid(68a808b3a3b1c664f9a1ace973b023a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34833dea9b6184eba85e4818a591a79') in 0.058907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Res/Art/prefab/goods/5_2_1/5_2_1.prefab
+  artifactKey: Guid(de7ad2391c527554cb90609e6445b694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Art/prefab/goods/5_2_1/5_2_1.prefab using Guid(de7ad2391c527554cb90609e6445b694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73701ae9400e058721bae29b37f10164') in 0.022232 seconds 

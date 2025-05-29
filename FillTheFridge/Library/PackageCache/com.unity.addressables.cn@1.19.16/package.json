@@ -1,0 +1,57 @@
+{
+  "name": "com.unity.addressables.cn",
+  "displayName": "Addressables.CN",
+  "version": "1.19.16",
+  "unity": "2019.4",
+  "description": "相对于原版Addressables package, 新增了对通过Addressables打包的asset进行加密的功能.\n 使用手册: https://ucgbucket.unitychina.cn/AssetStreaming/AddressablesCN.pdf",
+  "keywords": [
+    "asset",
+    "resources",
+    "bundle",
+    "bundles",
+    "assetbundles"
+  ],
+  "dependencies": {
+    "com.unity.scriptablebuildpipeline": "1.19.5",
+    "com.unity.modules.assetbundle": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+  },
+  "repository": {
+    "url": "git@github.cds.internal.unity3d.com:justinz/Addressables.git",
+    "type": "git",
+    "revision": "38952a0e62fa62364fa4c21244ae3d016076c893"
+  },
+  "upmCi": {
+    "footprint": "31465ea2b653003732e46b119cb80c0c6e74781b"
+  },
+  "samples": [
+    {
+      "displayName": "Addressables Utility",
+      "description": "This sample contains a set of utility functions for Addressables.",
+      "path": "Samples~/AddressablesUtility"
+    },
+    {
+      "displayName": "Custom Build and Playmode Scripts",
+      "description": "Example custom build and play mode scripts provided.  Along with a README discussing how to add them to the Addressables system.",
+      "path": "Samples~/CustomBuildAndPlaymodeScripts"
+    },
+    {
+      "displayName": "Disable AssetImport on Build",
+      "description": "A script that disables asset importing during a player build.  This improves build performance since AssetBundles are copied into StreamingAssets at build time.",
+      "path": "Samples~/DisableAssetImportOnBuild"
+    },
+    {
+      "displayName": "Import Groups Tool",
+      "description": "A tool that imports group assets (for example from a custom package) to the current project.",
+      "path": "Samples~/ImportExistingGroup"
+    },
+    {
+      "displayName": "Prefab Spawner",
+      "description": "A basic script that instantiates and destroys a prefab AssetReference.",
+      "path": "Samples~/PrefabSpawner"
+    }
+  ]
+}
