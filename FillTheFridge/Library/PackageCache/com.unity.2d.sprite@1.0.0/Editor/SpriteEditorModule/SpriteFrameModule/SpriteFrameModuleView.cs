@@ -13,36 +13,45 @@ namespace UnityEditor.U2D.Sprites
         // overrides for SpriteFrameModuleBase
         public override void DoMainGUI()
         {
+            // Beautification. Run ValidateSpriteRects only when window is presented.
+            if(!m_SpriteRectValidated)
+            {
+                EditorApplication.delayCall += ValidateSpriteRects;
+            }
+
             base.DoMainGUI();
             DrawSpriteRectGizmos();
             DrawPotentialSpriteRectGizmos();
 
-            HandleGizmoMode();
-
-            if (containsMultipleSprites)
-                HandleRectCornerScalingHandles();
-
-            HandleBorderCornerScalingHandles();
-            HandleBorderSidePointScalingSliders();
-
-            if (containsMultipleSprites)
-                HandleRectSideScalingHandles();
-
-            HandleBorderSideScalingHandles();
-            HandlePivotHandle();
-
-            if (containsMultipleSprites)
-                HandleDragging();
-
-            spriteEditor.HandleSpriteSelection();
-
-            if (containsMultipleSprites)
+            if (!spriteEditor.editingDisabled)
             {
-                HandleCreate();
-                HandleDelete();
-                HandleDuplicate();
+                HandleGizmoMode();
+
+                if (containsMultipleSprites)
+                    HandleRectCornerScalingHandles();
+
+                HandleBorderCornerScalingHandles();
+                HandleBorderSidePointScalingSliders();
+
+                if (containsMultipleSprites)
+                    HandleRectSideScalingHandles();
+
+                HandleBorderSideScalingHandles();
+                HandlePivotHandle();
+
+                if (containsMultipleSprites)
+                    HandleDragging();
+
+                spriteEditor.HandleSpriteSelection();
+
+                if (containsMultipleSprites)
+                {
+                    HandleCreate();
+                    HandleDelete();
+                    HandleDuplicate();
+                }
+                spriteEditor.spriteRects = m_RectsCache.GetSpriteRects();
             }
-            spriteEditor.spriteRects = m_RectsCache.GetSpriteRects();
         }
 
         private void DrawPotentialSpriteRectGizmos()
